@@ -25,19 +25,17 @@ class RegisterViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
-
-  
     @IBAction func registerPressed(_ sender: AnyObject) {
         
         //TODO: Set up a new user on our Firbase database
-        
-        Auth.auth().createUser(withEmail: emailTextfield.text!, password: passwordTextfield.text!) { (user, error) in
+        let ath = Auth.auth()
+        ath.createUser(withEmail: emailTextfield.text!, password: passwordTextfield.text!) { (user, error) in
             
             if error != nil{
-                print(error!)
+                //print(error!)
             }else{
-               // self.performSegue(withIdentifier: "goToChat", sender: self)
-                print ("successfull")
+                self.performSegue(withIdentifier: "goToChat", sender: self)
+               // print ("successfull")
             }
         }
         
