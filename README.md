@@ -1,4 +1,7 @@
 
+![Chatty](https://github.com/hamza233/Chatty/blob/master/ezgif.com-gif-maker.gif)
+
+
 ## Skills Used
 
 * How to integrate third party libraries in your app.
