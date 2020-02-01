@@ -1,8 +1,10 @@
 TODO
-- add dataset of users
-- adding friend capability
+- add dataset of users.
+- adding friend capability.
+- Alternate colors for sent and recieved messages.
+- Sending images and adding profile pictures.
 
-![Chatty](https://github.com/hamza233/Chatty/blob/master/ezgif.com-gif-maker.gif)
+![Chatty](https://github.com/hamza233/Chatty/blob/master/chattyDemo.gif)
 
 
 ## Skills Used
