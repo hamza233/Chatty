@@ -1,3 +1,9 @@
+TODO
+- add dataset of users
+- adding friend capability
+
+![Chatty](https://github.com/hamza233/Chatty/blob/master/ezgif.com-gif-maker.gif)
+
 
 ## Skills Used
 
